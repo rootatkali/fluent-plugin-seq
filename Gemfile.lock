@@ -7,17 +7,10 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.1)
-      public_suffix (>= 2.0.2, < 6.0)
     certstore_c (0.1.7)
     concurrent-ruby (1.1.10)
     cool.io (1.7.1)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
     ffi (1.15.5-x64-mingw-ucrt)
-    ffi-compiler (1.0.1)
-      ffi (>= 1.0.0)
-      rake
     ffi-win32-extensions (1.0.4)
       ffi
     fluentd (1.15.3-x64-mingw-ucrt)
@@ -36,21 +29,9 @@ GEM
       win32-ipc (~> 0.7.0)
       win32-service (~> 2.3.0)
       yajl-ruby (~> 1.0)
-    http (5.1.1)
-      addressable (~> 2.8)
-      http-cookie (~> 1.0)
-      http-form_data (~> 2.2)
-      llhttp-ffi (~> 0.4.0)
-    http-cookie (1.0.5)
-      domain_name (~> 0.5)
-    http-form_data (2.3.0)
     http_parser.rb (0.8.0)
-    llhttp-ffi (0.4.0)
-      ffi-compiler (~> 1.0)
-      rake (~> 13.0)
     msgpack (1.6.0)
     power_assert (2.0.3)
-    public_suffix (5.0.1)
     rake (13.0.6)
     serverengine (2.3.1)
       sigdump (~> 0.2.2)
@@ -62,9 +43,6 @@ GEM
       concurrent-ruby (~> 1.0)
     tzinfo-data (1.2022.7)
       tzinfo (>= 1.0.0)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.8.2-x64-mingw-ucrt)
     webrick (1.7.0)
     win32-event (0.6.3)
       win32-ipc (>= 0.6.0)
@@ -81,7 +59,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.3.7)
   fluent-plugin-seq!
-  http (~> 5.1)
   rake (~> 13.0.6)
   test-unit (~> 3.5.3)
 
